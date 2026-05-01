@@ -1,0 +1,12 @@
+options:
+  logging: CLOUD LOGGING ONLY
+
+steps:
+  - name: 'bash'
+    id: 'Imprimo Helloworld'
+    entrypoint: 'bash'
+    args:
+      - 'c'
+      - echo "------------------------------------------"
+        echo " Hello World!"
+        echo "------------------------------------------"
