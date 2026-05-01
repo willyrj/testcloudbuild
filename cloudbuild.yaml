@@ -1,5 +1,5 @@
 options:
-  logging: CLOUD LOGGING ONLY
+  logging: CLOUD_LOGGING_ONLY
 
 steps:
   - name: 'bash'
