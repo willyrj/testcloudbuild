@@ -6,7 +6,7 @@ steps:
     id: 'Imprimo Helloworld'
     entrypoint: 'bash'
     args:
-      - 'c'
+      - '-c'
       - echo "------------------------------------------"
         echo " Hello World!"
         echo " Y Felicidades"
